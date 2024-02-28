@@ -82,6 +82,9 @@ button{
 .img-box{
     width: 150px;
     margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img-box p{
@@ -90,9 +93,11 @@ button{
 }
 
 .img-box img{
-    border: #3882F6;
+    width: 100px;
+    border-color:#3882F6;
     border-radius: 10px;
-    border-width: 5px;
+    border-width: 3px;
+    border-style: solid;
 }
 
 h3{
