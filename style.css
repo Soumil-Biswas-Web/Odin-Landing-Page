@@ -166,6 +166,19 @@ h3{
     #quote{
         font-size: 15px;
     }
+}
+
+@media (max-width: 400px) {
+    #head-list {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .hero{
+        flex-direction: column;
+        padding: 60px 10px;
+    }
 
     .call-to-action{
         flex-direction: column;
