@@ -33,7 +33,7 @@ a{
     margin-left: 20px;
     text-decoration: none;
     color: #E5E7EB;
-    transition-duration: 300ms;
+    transition: color 300ms ease;
 }
 
 a:hover{
@@ -51,7 +51,18 @@ h2{
     justify-content: space-evenly;
     padding: 60px 0;
     margin-top: 50px;
-    gap: 10px
+    gap: 10px;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 1s ease-out forwards;
+    animation-delay: 0.2s;    
+}
+
+@keyframes slideIn {
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
 }
 
 h1{
